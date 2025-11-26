@@ -7,14 +7,13 @@ const Navbar = () => {
     return (
         <>
             <nav
-                className='w-full fixed top-0 px-5 lg:px-8 xl:px-[8%] py-0 flex items-center justify-between z-50 bg-white shadow-sm'
+                className='w-full fixed top-0 px-5 lg:px-8 xl:px-[8%] py-0 flex items-center justify-between z-50 bg-white/95 backdrop-blur-md shadow-lg border-b border-white/20'
                 style={{
                     backgroundImage: `url(${assets.header_bg_color.src})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
                     backgroundBlendMode: "multiply",
-                    opacity: 0.9,
                 }}
             >
                 <a href="#top">
@@ -34,15 +33,15 @@ const Navbar = () => {
                         onMouseLeave={(e) => e.target.style.color = ''}
                     >About me</a></li>
 
-                    <li><a href="#services" className='transition-colors'
+                    <li><a href="#experience" className='transition-colors'
                         onMouseEnter={(e) => e.target.style.color = '#F1746C'}
                         onMouseLeave={(e) => e.target.style.color = ''}
-                    >Services</a></li>
+                    >Experience</a></li>
 
-                    <li><a href="#work" className='transition-colors'
+                    <li><a href="#projects" className='transition-colors'
                         onMouseEnter={(e) => e.target.style.color = '#F1746C'}
                         onMouseLeave={(e) => e.target.style.color = ''}
-                    >My work</a></li>
+                    >Projects</a></li>
 
                     <li><a href="#contact" className='transition-colors'
                         onMouseEnter={(e) => e.target.style.color = '#F1746C'}

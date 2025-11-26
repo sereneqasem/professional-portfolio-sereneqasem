@@ -10,7 +10,7 @@ import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
-import right_arrow_white from './right-arrow-white.png';
+import linkdln_icon from './linkdln-icon.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
@@ -35,8 +35,30 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import github from './github.png';
+import ms from './Microsoft-Power-Platform.png';
+import react_nextjs from './react-nextjs.png';
+import visual_studio from './vs.png';
+import ssms from './ssms.png';
+import crystal_reports from './crystal-reports.png';
+import nextjs from './next-js.png';
+import shell from './shell.png';
+import basf from './basf.png';
+import cajun from './cajun.png';
+import agcenter from './agcenter.png';
 
 export const assets = {
+    github,
+    crystal_reports,
+    ssms,
+    nextjs,
+    ms,
+    shell,
+    basf,
+    cajun,
+    agcenter,
+    react_nextjs,
+    visual_studio,
     user_image,
     code_icon,
     code_icon_dark,
@@ -49,7 +71,7 @@ export const assets = {
     figma,
     git,
     mongodb,
-    right_arrow_white,
+    linkdln_icon,
     logo,
     logo_dark,
     mail_icon,
@@ -100,18 +122,18 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.cajun, title: 'Programmer Intern', description: 'Baton Rouge, LA (Aug 2024 - Present)', link: 'Serene A Qasem Resume .pdf' },
+    { icon: assets.basf, title: 'Data Science Intern', description: 'Geismar, LA (May 2025 - Aug 2025)', link: 'Serene A Qasem Resume .pdf' },
+    { icon: assets.shell, title: 'Power Platform Developer', description: 'Monaca, PA (Jan 2025 - May 2025)', link: 'Serene A Qasem Resume .pdf' },
+    { icon: assets.agcenter, title: 'Information Technology', description: 'Baton Rouge, LA (Oct 2023 - Jul 2024)', link: 'Serene A Qasem Resume .pdf' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, SQL, C#, VB.NET, Low-Code (Power Fx), JavaScript, TypeScript' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelors in Computer Science at LSU with a minor in Mathematics (Aug 2022 - Dec 2025)' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Passionate about building fun projects whether at work or school!' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.visual_studio, assets.github, assets.ms, assets.react_nextjs, assets.ssms, assets.crystal_reports, assets.nextjs
 ];
