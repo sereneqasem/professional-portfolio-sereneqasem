@@ -9,13 +9,27 @@
   --color-gray-200: #e5e7eb;
 }
 
-/* Global styles */
 * {
   font-family: var(--font-family-outfit);
 }
 
-/* Custom backdrop blur utilities for better browser support */
 .backdrop-blur-sm {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+}
+
+@media (max-width: 640px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  
+  button, a {
+    min-height: 44px;
+    touch-action: manipulation;
+  }
+  
+  body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
 }

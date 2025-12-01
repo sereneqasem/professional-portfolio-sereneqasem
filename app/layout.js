@@ -14,6 +14,7 @@ const ovo = Ovo({
 export const metadata = {
   title: "Serene Qasem's Portfolio",
   description: "Serene Qasem's personal portfolio website!",
+  viewport: "width=device-width, initial-scale=1, maximum-scale=5",
 };
 
 export default function RootLayout({ children }) {
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className="scroll-smooth">
       <body
         className={`${outfit.className} ${ovo.className} antialiased`}
+        suppressHydrationWarning={true}
       >
         {children}
       </body>

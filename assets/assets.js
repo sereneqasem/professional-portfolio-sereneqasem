@@ -46,9 +46,17 @@ import shell from './shell.png';
 import basf from './basf.png';
 import cajun from './cajun.png';
 import agcenter from './agcenter.png';
+import shell_pictures from './shell-pictures.png';
+import financial_awareness from './financial-awareness-pictures.png';
+import bloom_pictures from './bloom-pictures.png';
+import climatetech from './climatetech.png';
 
 export const assets = {
     github,
+    climatetech,
+    shell_pictures,
+    financial_awareness,
+    bloom_pictures,
     crystal_reports,
     ssms,
     nextjs,
@@ -100,24 +108,34 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'CarbonSight',
+        description: 'Website - Finalists in Nexus DevDays Challenge',
+        bgImage: '/climatetech.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Shell Yeah',
+        description: 'LLM Contractor - Project for Shell',
+        bgImage: '/shell-pictures.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'FiscalFocus',
+        description: 'Website - 1st place Hackathon + Best in Technical',
+        bgImage: '/financial-awareness-pictures.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Bloom',
+        description: 'Mobile App - Hackathon + Best in UI Design',
+        bgImage: '/bloom-pictures.png',
+    },
+    {
+        title: 'TigerAI',
+        description: 'AI Security Bootcamp',
+        bgImage: '/tigerai.png',
+    },
+    {
+        title: 'Gloom Doom',
+        description: 'Video Game - Class Project',
+        bgImage: '/gloom-doom.png',
     },
 ]
 

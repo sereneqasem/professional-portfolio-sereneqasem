@@ -8,9 +8,9 @@ const About = () => {
   return (
     <div id='about' className='w-full px-[12%] py-10 scroll-mt-20'>
       <h4 className='text-center mb-2 text-lg'>Introduction</h4>
-      <h2 className='text-center text-2xl md:text-4xl mb-10 bg-gradient-to-r from-[#e9aca7] via-[#F1746C] to-[#e5645a] bg-clip-text text-transparent font-semibold'>About me</h2>
-        <div className='flex w-full flex-col lg:flex-row items-start gap-10'>
-            <div className='w-full lg:w-1/2'>
+      <h2 className='text-center text-2xl md:text-4xl mb-6 bg-gradient-to-r from-[#e9aca7] via-[#F1746C] to-[#e5645a] bg-clip-text text-transparent font-semibold'>About me</h2>
+        <div className='flex w-full flex-col lg:flex-row items-start gap-2'>
+            <div className='w-full lg:w-1/2 -mt-1'>
                 <Image src={assets.user_image} alt='user me' className='w-96 rounded-3xl mx-auto'/>
             </div>
             <div className='max-w-2xl'>
